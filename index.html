@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="homepage.css">
     <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>homePage</title>
+    <title>Music Bar Kristy</title>
 </head>
 <style ></style>
-<body>
+<body class="bg-black-main">
 <div class="container">
-    <div class="row">
+    <div class="row color-white">
         <div class="col-xs-12">
-            <nav class="navbar navbar-default" role="navigation">
+            <nav style="border: 0" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <img src="./img/preview-xl-bl.jpg" class="wd-45-px navbar-brand">
+                        <a class="navbar-brand" href="#">Music Bar Kristy</a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target="#example-navbar-collapse">
                             <span class="sr-only">切换导航</span>
@@ -24,9 +26,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Music Bar Kristy</a>
                     </div>
-                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <div class="collapse navbar-collapse text-center" id="example-navbar-collapse">
                         <ul class="nav navbar-nav">
                             <li id=""><a href="#">Information</a></li>
                             <li><a href="#">About Bar</a></li>
@@ -36,7 +37,7 @@
                     </div>
                 </div>
             </nav>
-            <div id="myCarousel" class="carousel slide">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- 轮播（Carousel）指标 -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -70,8 +71,145 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-xs-12 bg-black-main">
+            <p1 class="col-xs-12 text-align title-text">Information</p1>
+        </div>
+        <!--    大屏展示-->
+        <div class="col-xs-12 hidden-xs color-white">
+            <div class="content-box message-box-big col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-4 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-8 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    小屏展示-->
+        <div class="col-xs-12 visible-xs-inline-block color-white">
+            <div class="content-box message-box-big-xs col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-12 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-12 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    大屏展示-->
+        <div class="col-xs-12 hidden-xs color-white">
+            <div class="content-box message-box-big col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-4 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-8 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    小屏展示-->
+        <div class="col-xs-12 visible-xs-inline-block color-white">
+            <div class="content-box message-box-big-xs col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-12 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-12 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    大屏展示-->
+        <div class="col-xs-12 hidden-xs color-white">
+            <div class="content-box message-box-big col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-4 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-8 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    小屏展示-->
+        <div class="col-xs-12 visible-xs-inline-block color-white">
+            <div class="content-box message-box-big-xs col-xs-12">
+                <div class="message-box-big-in col-xs-12">
+                    <div class="col-xs-12 color-white-really">
+                        2024年12月26日
+                    </div>
+                    <div class="col-xs-12 text-hover-light cur-poin">
+                        2025年1月のお休み
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+<!--        1-->
+        <div class="col-xs-12 hidden-xs other-big-box pull-left">
+            <!--    大屏展示-->
+            <div class="col-xs-4 others-box square-item box-1">
+                <img src="img/about.jpg" class="wd-100">
+                <div class="col-xs-12 text-align other-box-1">About</div>
+            </div>
+            <div class="col-xs-4 others-box square-item box-2">
+                <img src="img/drink.jpg" class="wd-100">
+                <div class="col-xs-12 text-align other-box-2">Drink Memu</div>
+            </div>
+            <div class="col-xs-4 others-box square-item box-3">
+                <img src="img/link.jpg" class="wd-100">
+                <div class="col-xs-12 text-align other-box-3">Link</div>
+            </div>
+        </div>
+        <div class="col-xs-12 visible-xs-inline-block other-big-box">
+            <!--    小屏展示-->
+            <div class="col-xs-12 others-box square-item-xs box-1">
+                <img src="img/about.jpg">
+                <div class="col-xs-12 text-align other-box-1">About</div>
+            </div>
+            <div class="col-xs-12 others-box square-item-xs box-2">
+                <img src="img/drink.jpg">
+                <div class="col-xs-12 text-align other-box-2">Drink Memu</div>
+            </div>
+            <div class="col-xs-12 others-box square-item-xs box-3">
+                <img src="img/link.jpg">
+                <div class="col-xs-12 text-align other-box-3">Link</div>
+            </div>
+        </div>
+    </div>
 </div>
-
+<footer class="footer">
+    <div class="container">
+        <div class="col12">
+            <div class="pagetop wow slideInUp" style="visibility: visible; animation-name: tb;text-align: center">
+                <a class="footer-nav-a" href="#top">
+                    <i class="glyphicon glyphicon-arrow-up" aria-hidden="true"></i>
+                    <span class="br"></span>
+                    Page Top
+                </a>
+            </div>
+        </div>
+    </div>
+    <ul id="menu-footer-nav" class="footer-nav">
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a class="nav-1" href="https://sanlucar.jp/category/information/">Information</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a class="nav-2" href="https://sanlucar.jp/about_us/">About BAR</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a class="nav-3" href="https://sanlucar.jp/menu/">Drink Menu</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a class="nav-4" href="https://sanlucar.jp/link/">Link</a></li>
+    </ul>
+    <div class="copyright">
+        <small>Music Bar Kristy</small>
+    </div>
+</footer>
 </body>
 <script src="homepage.js"></script>
 </html>
