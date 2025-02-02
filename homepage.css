@@ -177,6 +177,10 @@ ol, ul {
     color: #b5b5b5;
 }
 
+#menu-footer-nav{
+    cursor: pointer;
+}
+
 .footer-nav-a:hover{
     color: white;
 }
@@ -186,5 +190,19 @@ ol, ul {
 }
 
 #myCarousel a{
-    color:
+    color: wheat;
+}
+
+.about-title{
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-100{
+    width: 100%;
+}
+
+.about-text{
+    color: white;
 }

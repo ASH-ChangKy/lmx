@@ -6,19 +6,21 @@
     <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="homepage.css">
     <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="homepage.js"></script>
+
     <title>Music Bar Kristy</title>
 </head>
 <style ></style>
 <body class="bg-black-main">
-<div class="container">
-    <div class="row color-white">
-        <div class="col-xs-12">
+<div id="top"></div>
+<div class="container" style="height: 50px;">
+    <div class="row">
+        <div class="col-md-12">
             <nav style="border: 0" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <img src="./img/preview-xl-bl.jpg" class="wd-45-px navbar-brand">
-                        <a class="navbar-brand" href="#">Music Bar Kristy</a>
+                        <img  src="./img/preview-xl-bl.jpg" class="wd-45-px navbar-brand">
+                        <a id="homePage" class="navbar-brand" href="#">Music Bar Kristy</a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target="#example-navbar-collapse">
                             <span class="sr-only">切换导航</span>
@@ -29,14 +31,21 @@
                     </div>
                     <div class="collapse navbar-collapse text-center" id="example-navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li id=""><a href="#">Information</a></li>
-                            <li><a href="#">About Bar</a></li>
-                            <li><a href="#">Drink Memu</a></li>
-                            <li><a href="#">link</a></li>
+                            <!--                            <li id=""><a href="#">Information</a></li>-->
+                            <li id="ab"><a>About Bar</a></li>
+                            <li id="dm"><a>Drink Memu</a></li>
+<!--                            <li><a href="#">link</a></li>-->
                         </ul>
                     </div>
                 </div>
             </nav>
+        </div>
+    </div>
+</div>
+<!--主页-->
+<div id="home" class="container">
+    <div class="row color-white">
+        <div class="col-xs-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- 轮播（Carousel）指标 -->
                 <ol class="carousel-indicators">
@@ -188,6 +197,60 @@
         </div>
     </div>
 </div>
+<!--about Bar-->
+<div id="aboutBar" class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="col-xs-12 about-title">
+                About
+            </div>
+            <div class="col-xs-12">
+                <img src="./img/logo_main_2.PNG" class="wd-100">
+            </div>
+            <div class="col-xs-12 about-text">
+                <h1>🎶 Music Bar Kristy - 池袋に誕生！🍸</h1><br>
+
+                <h2>📍 東京都豊島区池袋2丁目61-3（Ikebukuro, Toshima City, Tokyo 171-0014）</h2><br>
+                <h2>電話：03-6228-1232</h2>
+
+                <h3>現在、Music Bar Kristy はオープンに向けて準備中です！</h3>
+                <h3>池袋の街角に、新たな音楽とお酒が楽しめる空間が誕生します。</h3><br>
+
+                <h3>🌟 開放的な大きな窓がある心地よい空間</h3>
+                <h3>🍸 本格カクテル＆厳選ウイスキー</h3>
+                <h3>🎹 生演奏のピアノと心に響く歌声</h3>
+                <h3>🎤 日本語＆中国語のライブパフォーマンス</h3><br>
+
+                <h3>現在、店内を改装中！</h3>
+                <h3>2025年3月中旬オープン予定！</h3>
+                <h3>ぜひ、オープンをお楽しみに！</h3><br>
+
+                <h3>📌 最新情報は随時更新！フォローをお忘れなく！</h3>
+            </div>
+        </div>
+    </div>
+    <row>
+        <div class="col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.41654946804903!2d139.7097679052558!3d35.73446167348528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0078ad0bbd%3A0x160b0c2193b001ff!2z5rGg6KKL44Ki44OQ44OD44Kv44OT44Or!5e0!3m2!1sja!2sjp!4v1738488005124!5m2!1sja!2sjp" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </row>
+</div>
+<!--drinkMenu-->
+<!--<div id="drinkMenu" class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-xs-12">-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--link-->
+<!--<div id="Link" class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-xs-12">-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <footer class="footer">
     <div class="container">
         <div class="col12">
@@ -201,15 +264,15 @@
         </div>
     </div>
     <ul id="menu-footer-nav" class="footer-nav">
-        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a class="nav-1" href="https://sanlucar.jp/category/information/">Information</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a class="nav-2" href="https://sanlucar.jp/about_us/">About BAR</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a class="nav-3" href="https://sanlucar.jp/menu/">Drink Menu</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a class="nav-4" href="https://sanlucar.jp/link/">Link</a></li>
+<!--        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a class="nav-1">Information</a></li>-->
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a class="nav-2">About BAR</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a class="nav-3">Drink Menu</a></li>
+<!--        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a class="nav-4">Link</a></li>-->
     </ul>
     <div class="copyright">
         <small>Music Bar Kristy</small>
     </div>
 </footer>
 </body>
-<script src="homepage.js"></script>
+<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="https://maps.googleapis.com/maps/api/js?key=MYKEY&callback=initialize" async defer></script>
 </html>
